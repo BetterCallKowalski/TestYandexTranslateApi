@@ -1,4 +1,3 @@
-import yaml
 import json
 import requests
 
@@ -7,24 +6,25 @@ class YAPI:
     """
     Tools for working with Yandex Translate API.
     """
-    api_conf = yaml.safe_load(open('../api_config.yml', encoding='utf-8'))
+    def __init__(self, api_url, api_key):
+        self.api_url = api_url
+        self.api_key = api_key
 
-    @staticmethod
-    def get(text, lang, api_key=api_conf['api-key']):
+    def get(self, text, lang, api_key=None):
         """
         Sending http GET reguest to Yandex Translate API.
         """
         text = text
         lang = lang
-        api_key = api_key
-
+        if api_key is None:
+            api_key = self.api_key
+        
         params = {'key': api_key, 'lang': lang, 'text': text}
-        response = requests.get(YAPI.api_conf['api-url'], params=params)
+        response = requests.get(self.api_url, params=params)
 
         return response
 
-    @staticmethod
-    def get_returned_text(api_response):
+    def get_returned_text(self, api_response):
         """
         Getting returned text from Yandex Translate API response.
         """
@@ -36,8 +36,7 @@ class YAPI:
 
         return returned_text
 
-    @staticmethod
-    def get_error_message(api_response):
+    def get_error_message(self, api_response):
         """
         Getting returned error message Yandex Translate API response.
         """
@@ -50,16 +49,16 @@ class YAPI:
 
         return returned_error_message
 
-    @staticmethod
-    def fake_delete_request(text, lang, api_key=api_conf['api-key']):
+    def fake_delete_request(self, text, lang, api_key=None):
         """
         Sending http fake DELETE reguest to Yandex Translate API.
         """
         text = text
         lang = lang
-        api_key = api_key
+        if api_key is None:
+            api_key = self.api_key
 
         params = {'key': api_key, 'lang': lang, 'text': text}
-        response = requests.delete(YAPI.api_conf['api-url'], params=params)
+        response = requests.delete(self.api_url, params=params)
 
         return response
