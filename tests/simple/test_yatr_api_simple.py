@@ -12,7 +12,8 @@ class TestYandexTranslateApiSimple:
     special_symbols = '~`!@#$%^&*()_+-={}[]\\|:;\'"<>,.?/'
     lang = 'en-ru'
     api_url = 'https://translate.yandex.net/api/v1.5/tr.json/translate'
-    api_key = 'Enter-Your-Yandex-Translate-Api-Key-Here'
+    api_key = 'trnsl.1.1.20190826T234625Z.3e910e5940be67dd.121f8c60708f7c388176ed46712cd7f2e9380d81'
+    # api_key = 'Enter-Your-Yandex-Translate-Api-Key-Here'
 
     def test_positive_answer(self):
         """

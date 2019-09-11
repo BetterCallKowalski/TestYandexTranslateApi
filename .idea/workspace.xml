@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a03e7272-9dcb-4982-bb58-af841dd3f487" name="Default Changelist" comment="" />
+    <list default="true" id="a03e7272-9dcb-4982-bb58-af841dd3f487" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Powa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/simple/test_yatr_api_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/simple/test_yatr_api_simple.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/test_yatr_api_simple.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/simple/test_yatr_api_simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -22,11 +28,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/test_yatr_api.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="82" column="11" lean-forward="true" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+            <state relative-caret-position="-34" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_yatr_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -35,16 +48,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/api_config.yml">
+        <entry file="file://$PROJECT_DIR$/api_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="17">
+              <caret line="1" column="93" selection-start-line="1" selection-start-column="93" selection-end-line="1" selection-end-column="93" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/test_data.yml">
+        <entry file="file://$PROJECT_DIR$/test_data.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
@@ -53,10 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/utils/yapi.py">
+        <entry file="file://$PROJECT_DIR$/tests/utils/yapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+            <state relative-caret-position="221">
+              <caret line="13" column="11" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -65,11 +78,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+              <first_editor relative-caret-position="102">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -77,7 +90,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
@@ -86,7 +99,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/__init__.py">
+        <entry file="file://$PROJECT_DIR$/tests/simple/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -99,6 +112,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -107,16 +123,16 @@
         <option value="$PROJECT_DIR$/tests/simple/test_yandex_translate_simple_vers_ru_en.py" />
         <option value="$PROJECT_DIR$/tests/simple/test_yandex_translate_simple_vers_tech.py" />
         <option value="$PROJECT_DIR$/tests/simple/test_yandex_translate_simple_vers_en_ru.py" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/test_yatr_simple_en_ru.py" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/README.md" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/tests/TestYandexTranslateApi.py" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/test_data.yml" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/tests/test_data.yml" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/requirements.txt" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/tests/utils/yapi.py" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/tests/test_yatr_api.py" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/api_config.yml" />
-        <option value="$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/test_yatr_api_simple.py" />
+        <option value="$PROJECT_DIR$/tests/simple/test_yatr_simple_en_ru.py" />
+        <option value="$PROJECT_DIR$/tests/TestYandexTranslateApi.py" />
+        <option value="$PROJECT_DIR$/test_data.yml" />
+        <option value="$PROJECT_DIR$/tests/test_data.yml" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/tests/utils/yapi.py" />
+        <option value="$PROJECT_DIR$/tests/test_yatr_api.py" />
+        <option value="$PROJECT_DIR$/tests/simple/test_yatr_api_simple.py" />
+        <option value="$PROJECT_DIR$/api_config.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -127,28 +143,38 @@
     <option name="height" value="1020" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="TestYandexTranlsateApiSimple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestYandexTranslateApi" type="462c0819:PsiDirectoryNode" />
+              <item name="TestYandexTranslateApi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Powa\Desktop\Work\TESTS\TestYandexTranslateApi" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="TestYandexTranlsateApiSimple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestYandexTranslateApi" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="TestYandexTranslateApi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Powa\Desktop\Work\TESTS\TestYandexTranslateApi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TestYandexTranslateApi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Powa\Desktop\Work\TESTS\TestYandexTranslateApi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_yatr_api_simple.py">
+  <component name="RunManager" selected="Python tests.pytest in test_yatr_api.py">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="TestYandexTranslateApi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,6 +202,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_yatr_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TestYandexTranslateApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_yatr_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,27 +275,12 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_yatr_api.TestYandexTranslateApi" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="TestYandexTranslateApi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TestYandexTranslateApi/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_yatr_api.TestYandexTranslateApi&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_yatr_api.TestYandexTranslateApi.test_sending_wrong_language" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TestYandexTranslateApi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TestYandexTranslateApi/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -263,7 +295,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TestYandexTranslateApi/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -273,7 +305,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.simple.test_yandex_translate_simple_vers_en_ru" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_yatr_api.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="TestYandexTranlsateApiSimple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Powa\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_yatr_api.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_yatr_api_simple.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TestYandexTranslateApi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,62 +331,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.simple.test_yandex_translate_simple_vers_en_ru&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for tests.simple.test_yatr_api_simple" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="TestYandexTranslateApi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.simple.test_yatr_api_simple&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_yatr_api.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="TestYandexTranslateApi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TestYandexTranslateApi/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../TestYandexTranslateApi/tests/test_yatr_api.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_yatr_api_simple.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="TestYandexTranslateApi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/test_yatr_api_simple.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/simple/test_yatr_api_simple.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_yatr_api_simple.py" />
         <item itemvalue="Python tests.pytest in test_yatr_api.py" />
+        <item itemvalue="Python.test_yatr_api" />
+        <item itemvalue="Python tests.pytest in test_yatr_api_simple.py" />
         <item itemvalue="Python tests.pytest for test_yatr_api.TestYandexTranslateApi.test_sending_wrong_language" />
         <item itemvalue="Python tests.pytest for test_yatr_api.TestYandexTranslateApi.test_using_wrong_method" />
-        <item itemvalue="Python tests.pytest for test_yatr_api.TestYandexTranslateApi" />
       </list>
     </recent_temporary>
   </component>
@@ -357,18 +359,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_yatr_api_py - 2019.08.29 at 16h 24m 52s.xml">
-      <configuration name="pytest in test_yatr_api.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_yatr_api_py - 2019.08.29 at 16h 25m 04s.xml">
-      <configuration name="pytest in test_yatr_api.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_yatr_api_py - 2019.08.29 at 16h 27m 52s.xml">
-      <configuration name="pytest in test_yatr_api.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_yatr_api_py - 2019.08.29 at 16h 28m 11s.xml">
-      <configuration name="pytest in test_yatr_api.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_yatr_api_py - 2019.08.29 at 16h 28m 30s.xml">
       <configuration name="pytest in test_yatr_api.py" configurationId="tests" />
     </history-entry>
@@ -387,12 +377,24 @@
     <history-entry file="pytest_in_test_yatr_api_simple_py - 2019.08.29 at 16h 42m 20s.xml">
       <configuration name="pytest in test_yatr_api_simple.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_yatr_api_py - 2019.08.29 at 17h 10m 20s.xml">
+      <configuration name="pytest in test_yatr_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_yatr_api_py - 2019.09.06 at 00h 58m 42s.xml">
+      <configuration name="pytest in test_yatr_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_yatr_api_py - 2019.09.08 at 22h 34m 51s.xml">
+      <configuration name="pytest in test_yatr_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_yatr_api_py - 2019.09.09 at 01h 41m 04s.xml">
+      <configuration name="pytest in test_yatr_api.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.24225576" />
       <window_info id="Structure" order="1" sideWeight="0.5012346" side_tool="true" weight="0.2494043" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -413,14 +415,8 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tests/simple/test_yandex_translate_api_simple_vers" />
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/.pytest_cache/README.md">
+    <entry file="file://$PROJECT_DIR$/tests/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/simple/.pytest_cache/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -428,107 +424,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/.pytest_cache/CACHEDIR.TAG">
+    <entry file="file://$PROJECT_DIR$/tests/simple/.pytest_cache/CACHEDIR.TAG">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/.pytest_cache/.gitignore">
+    <entry file="file://$PROJECT_DIR$/tests/simple/.pytest_cache/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/test_yatr_simple_ru_en.py">
+    <entry file="file://$PROJECT_DIR$/tests/simple/test_yatr_simple_ru_en.py" />
+    <entry file="file://$PROJECT_DIR$/tests/simple/test_yatr_simple_tech.py" />
+    <entry file="file://$PROJECT_DIR$/tests/TestYandexTranslateApi.py" />
+    <entry file="file://$PROJECT_DIR$/tests/test_data.yml" />
+    <entry file="file://$PROJECT_DIR$/tests/api_config.yml" />
+    <entry file="file://$PROJECT_DIR$/api_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="93" selection-start-line="1" selection-start-column="93" selection-end-line="1" selection-end-column="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/test_yatr_simple_tech.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/TestYandexTranslateApi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/test_data.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/api_config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/test_yatr_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="11" lean-forward="true" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/test_data.yml">
+    <entry file="file://$PROJECT_DIR$/test_data.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/utils/yapi.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/simple/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/utils/yapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/api_config.yml">
+    <entry file="file://$PROJECT_DIR$/tests/test_yatr_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TestYandexTranslateApi/tests/simple/test_yatr_api_simple.py">
+    <entry file="file://$PROJECT_DIR$/tests/simple/test_yatr_api_simple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34" />
       </provider>
     </entry>
   </component>
