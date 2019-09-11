@@ -1,97 +1,84 @@
 import yaml
-from tests.utils.yapi import Yapi
+from tests.utils.yapi import YAPI
 
 
-class TestYandexTranslateApi:
-    """ Yandex Translate Api test suite. """
+class TestYandexTranslateAPI:
+    """ Yandex Translate API test suite. """
 
     d = yaml.safe_load(open('../test_data.yml', encoding='utf-8'))  # Loading test data from 'test_data.yml'
 
-    def test_positive_answer(self):
+    def test_translation_text1_en_ru(self):
         """
-        Yandex Translate Api returns positive answer test.
+        Yandex Translate API returns correct en-ru translation of text1_en.
         """
-        request = Yapi.get(self.d['text1_en'], self.d['lang'])
-        assert 200 == request.status_code
+        response = YAPI.get(self.d['text1_en'], 'en-ru')
+        assert YAPI.get_returned_text(response) == self.d['text1_ru']
 
-    def test_api_returns_string(self):
+    def test_translation_text1_ru_en(self):
         """
-        Yandex Translate Api returns string test.
+        Yandex Translate API returns correct ru-en translation of text1_ru.
         """
-        request = Yapi.get(self.d['text1_en'], self.d['lang'])
-        assert type(request.text) == str
+        response = YAPI.get(self.d['text1_ru'], 'ru-en')
+        assert YAPI.get_returned_text(response) == self.d['text1_en']
 
-    def test_api_returns_non_empty_string(self):
+    def test_translation_text2_en_ru(self):
         """
-        Yandex Translate Api returns not empty string test.
+        Yandex Translate API returns correct en-ru translation of text2_en.
         """
-        request = Yapi.get(self.d['text1_en'], self.d['lang'])
-        assert request.text != ""
+        response = YAPI.get(self.d['text2_en'], 'en-ru')
+        assert YAPI.get_returned_text(response) == self.d['text2_ru']
 
-    def test_api_returns_different_text(self):
+    def test_translation_text2_ru_en(self):
         """
-        Yandex Translate Api returned text, that not equal sent text.
+        Yandex Translate API returns correct ru-en translation of text2_ru.
         """
-        request = Yapi.get(self.d['text1_en'], self.d['lang'])
-        assert Yapi.get_returned_text(request) != self.d['text1_en']
+        response = YAPI.get(self.d['text2_ru'], 'ru-en')
+        assert YAPI.get_returned_text(response) == self.d['text2_en']
 
-    def test_translation_1(self):
+    def test_sending_already_translated_rus_text_for_en_ru_translation(self):
         """
-        Yandex Translate Api returns right translation of text1_en test.
+        Sending already translated russian text for english-russian translation.
         """
-        request = Yapi.get(self.d['text1_en'], self.d['lang'])
-        assert Yapi.get_returned_text(request) == self.d['text1_ru']
+        response = YAPI.get(self.d['text1_ru'], 'en-ru')
+        assert YAPI.get_returned_text(response) == self.d['text1_ru']
 
-    def test_translation_2(self):
+    def test_sending_special_symbols_set(self):
         """
-        Yandex Translate Api returns right translation of text2_en test.
+        Sending full keyboard special symbols set for en-ru translation.
+        Yandex Translate API shouldn't do something with special symbols.
         """
-        request = Yapi.get(self.d['text2_en'], self.d['lang'])
-        assert Yapi.get_returned_text(request) == self.d['text2_ru']
-
-    def test_sending_already_translated_text(self):
-        """
-        Sending already translated text to Yandex Translate Api test.
-        """
-        request = Yapi.get(self.d['text1_ru'], self.d['lang'])
-        assert Yapi.get_returned_text(request) == self.d['text1_ru']
-
-    def test_special_symbols(self):
-        """
-        Testing special symbols set translation.
-        """
-        request = Yapi.get(self.d['special_symbols'], self.d['lang'])
-        assert Yapi.get_returned_text(request) == self.d['special_symbols']
+        response = YAPI.get(self.d['special_symbols'], 'en-ru')
+        assert YAPI.get_returned_text(response) == self.d['special_symbols']
 
     def test_sending_empty_string(self):
         """
-        Sending empty string to Yandex Translate Api.
+        Sending empty string for translation.
         """
-        request = Yapi.get('', self.d['lang'])
-        assert 400 == request.status_code
-        assert Yapi.get_error_message(request) == 'Invalid parameter: text'
+        response = YAPI.get('', 'en-ru')
+        assert 400 == response.status_code
+        assert YAPI.get_error_message(response) == 'Invalid parameter: text'
 
     def test_sending_wrong_api_key(self):
         """
-        Sending wrong api-key to Yandex Translate Api.
+        Using wrong API-Key.
         """
-        request = Yapi.get(self.d['text1_en'],  self.d['lang'], api_key='Wrong_Api_Key')
-        assert 403 == request.status_code
-        assert Yapi.get_error_message(request) == 'API key is invalid'
+        response = YAPI.get(self.d['text1_en'], 'en-ru', api_key='Wrong_Api_Key')
+        assert 403 == response.status_code
+        assert YAPI.get_error_message(response) == 'API key is invalid'
 
-    def test_sending_wrong_language(self):
+    def test_sending_wrong_language_parameter(self):
         """
-        Sending wrong language to Yandex Translate Api.
+        Using wrong language parameter.
         """
-        request = Yapi.get(self.d['text1_en'], 'Wrong_Language')
-        assert 400 == request.status_code
-        assert Yapi.get_error_message(request) == 'Invalid parameter: lang'
+        response = YAPI.get(self.d['text1_en'], 'Wrong_Language')
+        assert 400 == response.status_code
+        assert YAPI.get_error_message(response) == 'Invalid parameter: lang'
 
-    def test_using_wrong_method(self):
+    def test_wrong_request_method(self):
         """
         Using wrong http request method for translation.
         """
-        request = Yapi.fake_delete(self.d['text1_en'], self.d['lang'])
-        assert 405 == request.status_code
-        assert Yapi.get_error_message(request) == 'Method Not Allowed'
+        response = YAPI.fake_delete_request(self.d['text1_en'], 'en-ru')
+        assert 405 == response.status_code
+        assert YAPI.get_error_message(response) == 'Method Not Allowed'
 

@@ -12,6 +12,6 @@ HOW TO USE
 
 ADDITIONAL INFO
 
-1. api_config.yml stores API-Url and API-Key\n 
+1. api_config.yml stores API-Url and API-Key
 2. test_data.yml stores some test data for using in test suite
 
