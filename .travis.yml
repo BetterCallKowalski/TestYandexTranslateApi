@@ -6,5 +6,4 @@ script:
   - pytest
 
 env:
-  - api_key=$YAPI_KEY
-  - test_var="huuuuuuuy"
+  - FOO=foo
