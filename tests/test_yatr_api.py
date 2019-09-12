@@ -5,14 +5,14 @@ from tests.yapi.yapi import YAPI
 class TestYandexTranslateAPI:
     """ Yandex Translate API test suite. """
 
-    def setup(self):
-        self.d = yaml.safe_load(open('../test_data.yml', encoding='utf-8'))  # Loading test data from 'test_data.yml'
-        config = yaml.safe_load(open('../api_config.yml', encoding='utf-8'))  # Loading config from 'api_config.yml'
-
-        # if env and env['yapi_key']:
-        #     config['api-key'] = env['yapi_key']
-
-        self.yapi = YAPI(config['api-url'], config['api-key'])
+    # def setup(self):
+    #     self.d = yaml.safe_load(open('../test_data.yml', encoding='utf-8'))  # Loading test data from 'test_data.yml'
+    #     config = yaml.safe_load(open('../api_config.yml', encoding='utf-8'))  # Loading config from 'api_config.yml'
+    #
+    #     # if env and env['yapi_key']:
+    #     #     config['api-key'] = env['yapi_key']
+    #
+    #     self.yapi = YAPI(config['api-url'], config['api-key'])
 
     def test_sample(self):
         assert 5 == 5
