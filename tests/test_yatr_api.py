@@ -7,7 +7,7 @@ class TestYandexTranslateAPI:
 
 
     def test_sample(self):
-        print(os.environ)
+        print("HUY")
         # print(env['FOO'])
         # assert env['FOO'] == "foo"
 
