@@ -5,6 +5,6 @@ language: python
 script:
   - pytest
 
-deploy:
-  provider: yandex
-  api_key: $YAPI_KEY
+env:
+  - api_key=$YAPI_KEY
+  - test_var="huuuuuuuy"
