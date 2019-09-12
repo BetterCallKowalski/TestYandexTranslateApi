@@ -1,14 +1,15 @@
+import os
 import yaml
 from tests.yapi.yapi import YAPI
-
 
 class TestYandexTranslateAPI:
     """ Yandex Translate API test suite. """
 
 
     def test_sample(self):
-        print(env['FOO'])
-        assert env['FOO'] == "foo"
+        print(os.environ)
+        # print(env['FOO'])
+        # assert env['FOO'] == "foo"
 
     # def setup(self):
     #     self.d = yaml.safe_load(open('../test_data.yml', encoding='utf-8'))  # Loading test data from 'test_data.yml'
