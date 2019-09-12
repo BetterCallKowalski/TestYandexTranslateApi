@@ -1,4 +1,7 @@
+[![Build Status](https://travis-ci.org/BetterCallKowalski/TestYandexTranslateApi.svg?branch=master)](https://travis-ci.org/BetterCallKowalski/TestYandexTranslateApi)
+
 Welcome!
+
 
 This is my first project on GitHub - example test suite for Yandex Translate API (Python, PyTest).
 
