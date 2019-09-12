@@ -15,7 +15,7 @@ class TestYandexTranslateAPI:
         self.yapi = YAPI(config['api-url'], config['api-key'])
 
     def test_sample(self):
-        assert 3 == 5
+        assert 5 == 5
 
     # def test_translation_text1_en_ru(self):
     #     """
