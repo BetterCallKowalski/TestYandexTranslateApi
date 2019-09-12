@@ -7,7 +7,7 @@ class TestYandexTranslateAPI:
 
 
     def test_sample(self):
-        assert os.environ["FOO"] == "foo"
+        assert os.environ["DICKHEAD"] == "dickhead"
 
     # def setup(self):
     #     self.d = yaml.safe_load(open('../test_data.yml', encoding='utf-8'))  # Loading test data from 'test_data.yml'
