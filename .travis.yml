@@ -4,6 +4,3 @@ language: python
 
 script:
   - pytest
-
-env:
-  - FOO=foo

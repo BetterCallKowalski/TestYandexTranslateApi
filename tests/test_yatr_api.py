@@ -2,12 +2,25 @@ import os
 import yaml
 from tests.yapi.yapi import YAPI
 
+import requests
+
 class TestYandexTranslateAPI:
     """ Yandex Translate API test suite. """
 
 
     def test_sample(self):
-        assert os.environ["DICKHEAD"] == "dickhead"
+        api_url = 'https://translate.yandex.net/api/v1.5/tr.json/translate'
+        api_key = 'HUY'
+
+        if "YAPI_KEY" in os.environ:
+            api_key = os.environ["YAPI_KEY"]
+
+        params = {'key': api_key, 'lang': "en-ru", 'text': "cat"}
+
+        response = requests.get(api_url, params=params)
+        assert 200 == response.status_code
+
+
 
     # def setup(self):
     #     self.d = yaml.safe_load(open('../test_data.yml', encoding='utf-8'))  # Loading test data from 'test_data.yml'
