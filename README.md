@@ -3,8 +3,8 @@
 Welcome!
 
 
-This is my first project on GitHub - example test suite for Yandex Translate API(Python, PyTest) 
-with Continuous Integration(Travis-CI).
+This is my first project on GitHub - example test suite for Yandex Translate API 
+with Continuous Integration (Python, PyTest, Travis-CI).
 
 
 HOW TO USE
